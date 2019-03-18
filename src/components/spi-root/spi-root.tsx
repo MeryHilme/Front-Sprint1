@@ -18,6 +18,7 @@ export class SpiRoot {
               <stencil-route url="/list" component="spi-list" exact={true} />
               <stencil-route url="/profil" component="spi-profile" exact={true} />
               <stencil-route url="/ue" component="spi-ue" exact={true} />
+              <stencil-route url="/logout/:userId" component="user-detail" />
             </stencil-route-switch>
           </stencil-router>
         </main>
